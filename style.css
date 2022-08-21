@@ -8,6 +8,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+section {
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
 .flexable img {
     width: 90%;
 
@@ -15,9 +24,7 @@ h1 {
 
 .flexable {
     display: flex;
-    align-items: center ;
-    padding-bottom: 150px;          
-
+    align-items: center;
 }
 
 .orange {
@@ -45,8 +52,34 @@ h1 {
 
 }
 
-.dream-big{
+.dream-big {
     background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+#box-1 {
+    border-left: 7px solid tomato;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0 auto;
+    width: 40%;
+    padding: 20px;
+}
+
+#box-2 {
+    border-left: 7px solid blue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0 auto;
+    width: 40%;
+    padding: 20px;
+}
+
+.experiences-bg {
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+footer {
+    text-align: center;
 }
